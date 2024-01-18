@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+/* style container del header */
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(173, 216, 230, 1);
+    align-items: center;
+    padding: 5px;
+
+
+}
+
+.left {
+    border: dotted;
+    text-align: end;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(218, 165, 32, 1);
+}
+
+.center {
+    border: dotted;
+    margin: 4px;
+    flex-grow: 5;
+    text-align: center;
+    background-color: rgba(218, 165, 32, 1);
+}
+
+.right {
+    flex-grow: 1;
+    text-align: end;
+    background-color: rgba(218, 165, 32, 1);
+    border: dotted;
+
+}
+/* fine del header style */
+
+/* style del contenuto main */
+.container_blue {
+    background-color: rgba(0, 0, 139, 1);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container_center {
+    background-color: rgba(238, 130, 238, 1);
+    width: 200px;
+    height: 100px;
+    align-self: center;
+    border: dotted;
+}
+/* style seconda area */
+
+.container_white {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.container_box1 {
+    background-color: rgba(30, 144, 255, 1);
+    width: 350px;
+    height: 200px;
+    align-self: center;
+    border: dotted;
+}
+
+.container_box2 {
+    background-color: rgba(255, 192, 203, 1);
+    width: 200px;
+    height: 200px;
+    align-self: center;
+    border: dotted;
+}
+/* fine style seconda area */
