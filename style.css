@@ -3,11 +3,12 @@ body {
 }
 
 /* style contain header */
-header{
-    display:flex;
+header {
+    display: flex;
     justify-content: center;
     background-color: rgba(173, 216, 230, 1);
 }
+
 .container {
     display: flex;
     justify-content: center;
@@ -102,7 +103,7 @@ header{
     border: dotted;
     align-self: center;
 }
-
+/* style footer */
 .container_footer {
     display: flex;
     justify-content: center;
@@ -111,17 +112,35 @@ header{
     background-color: rgba(35, 39, 42, 1);
     height: 400px;
 }
-.container_pink{
+
+.container_pink {
     background-color: rgba(240, 128, 128, 1);
     width: 250px;
     height: 300px;
     border: dotted;
     align-self: center;
 }
-.container_green{
+
+.container_green {
     background-color: rgba(32, 178, 170, 1);
     width: 100px;
     height: 300px;
     border: dotted;
     align-self: center;
+}
+
+hr {
+    margin: 0;
+}
+
+.contenitore_logo {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(127, 255, 212, 1);
+}
+
+.logo {
+    background-color: rgba(250, 178, 189, 1);
+    border: dotted;
+
 }
