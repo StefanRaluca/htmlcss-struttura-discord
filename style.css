@@ -1,7 +1,8 @@
 body {
     margin: 0;
 }
-/* style container del header */
+
+/* style contain header */
 .container {
     display: flex;
     justify-content: center;
@@ -35,9 +36,10 @@ body {
     border: dotted;
 
 }
-/* fine del header style */
 
-/* style del contenuto main */
+/* end header style */
+
+/* style content main */
 .container_blue {
     background-color: rgba(0, 0, 139, 1);
     height: 200px;
@@ -53,7 +55,8 @@ body {
     align-self: center;
     border: dotted;
 }
-/* style seconda area */
+
+/* style second area */
 
 .container_white {
     height: 400px;
@@ -76,4 +79,21 @@ body {
     align-self: center;
     border: dotted;
 }
-/* fine style seconda area */
+
+/* end style second area */
+/* third area */
+.container_grey {
+    height: 400px;
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+}
+
+/*  style third area*/
+.container_box {
+    background-color: green;
+    width: 350px;
+    height: 350px;
+    border: dotted;
+    align-self: center;
+}
